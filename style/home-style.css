@@ -1,0 +1,45 @@
+body {
+    position: relative;
+}
+
+#propic {
+    margin: auto;
+    width: 100%;
+}
+
+.intro-row{ 
+    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+}
+
+.my-row{
+    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+}
+
+.icon-list {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.custom-nav{
+    background-color: #323335;
+}
+
+.logo{
+    float:left;
+    padding:10px;
+    margin: 0 auto;
+}
+
+.total-center {
+    padding: 70px 0;
+    text-align: center;
+}
+
+#about {
+    background: hotpink;
+}
+
+.modal-body {
+    height: 100vh;
+    width: 125vh;
+}
