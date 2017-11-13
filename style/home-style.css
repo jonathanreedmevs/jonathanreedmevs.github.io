@@ -7,6 +7,7 @@ body {
     width: 100%;
 }
 
+
 .intro-row{ 
     background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
 }
@@ -23,6 +24,7 @@ body {
 .custom-nav{
     background-color: #323335;
 }
+
 
 .logo{
     float:left;
