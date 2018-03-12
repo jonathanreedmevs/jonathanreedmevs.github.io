@@ -9,16 +9,12 @@ body {
 
 
 .intro-row{ 
-    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+    /*background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);*/
+    position: relative;
 }
 
 .my-row{
-    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
-}
-
-.icon-list {
-    padding-top: 30px;
-    display: inline-block;
+    /*background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);*/
 }
 
 .custom-nav{
@@ -32,14 +28,21 @@ body {
     margin: 0 auto;
 }
 
+.icon-list {
+    display: inline-block;
+}
+
 .total-center {
-    padding: 70px 0;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;*/
+    /*transform: translate(-50%, 50%);*/
     text-align: center;
 }
 
-#about {
+/*#about {
     background: hotpink;
-}
+}*/
 
 .modal-body {
     height: 100vh;
