@@ -11,6 +11,39 @@
 <body>
     Hello World!
 
+    <style>
+    canvas {
+        display: none;
+    }
+    hr {
+        margin-top: 32px;
+    }
+    input[type="file"] {
+        display: block;
+        margin-bottom: 16px;
+    }
+    div {
+        margin-bottom: 16px;
+    }
+</style>
+<h1>Scan from WebCam:</h1>
+<div>
+    <video muted autoplay playsinline id="qr-video"></video>
+    <canvas id="debug-canvas"></canvas>
+</div>
+<div>
+    <input type="checkbox" id="debug-checkbox">
+    <span>Show debug image</span>
+</div>
+<b>Detected QR code: </b>
+<span id="cam-qr-result">None</span>
+<hr>
+
+<h1>Scan from File:</h1>
+<input type="file" id="file-selector">
+<b>Detected QR code: </b>
+<span id="file-qr-result">None</span>
+
     <video id="qr-video"></video>
 
     <script type="module">
